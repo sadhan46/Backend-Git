@@ -40,7 +40,7 @@ app.use("/customer", customerRoute);
 const sheduleRoute = require("./routes/add_shedule");
 app.use("/add_shedule", sheduleRoute);
 
-const appointmentRoute = require("./routes/add_appointment");
+const appointmentRoute = require("./routes/Customerappointment");
 app.use("/add_appointment", appointmentRoute); 
 
 //trying
